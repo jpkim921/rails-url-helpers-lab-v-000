@@ -1,5 +1,6 @@
 <h1><%= @student.to_s %></h1>
 
+<<<<<<< HEAD
 <h3>Status: <%= @student.active %></h3>
 
 <% if @student.active %>
@@ -7,3 +8,10 @@ This student is currently active.
 <% else %>
 This student is currently inactive.
 <% end %>
+=======
+<% if @student.active == true %>
+  <p>This student is currently active.</p>
+<% else %>
+  <p>This student is currently inactive.</p>
+<% end %>
+>>>>>>> 01261e166a91893af3036d4ef8fdcdf4364b3ef0

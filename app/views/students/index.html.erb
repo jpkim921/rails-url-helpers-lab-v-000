@@ -1,4 +1,13 @@
 <div>
   <% @students.each do |student| %>
+<<<<<<< HEAD
     <div><%= link_to student.to_s, student_path(student) %></div>
   <% end %>
+=======
+    <!-- <div><%= student.first_name + " " + student.last_name %></div> -->
+    <div><%= link_to student.to_s, student_path(student) %>
+
+    </div>
+  <% end %>
+</div>
+>>>>>>> 01261e166a91893af3036d4ef8fdcdf4364b3ef0
